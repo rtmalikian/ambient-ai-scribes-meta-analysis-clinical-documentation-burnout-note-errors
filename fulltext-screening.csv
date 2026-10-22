@@ -1,0 +1,93 @@
+record_id,decision,reason
+R0003,exclude,Qualitative interview study only; protocol section 3.1 excludes qualitative studies with no quantitative protocol outcome
+R0012,include,
+R0023,include,
+R0029,include,
+R0030,include,
+R0043,include,
+R0048,include,
+R0059,include,
+R0068,include,
+R0076,include,
+R0077,include,
+R0078,include,
+R0098,include,
+R0102,include,
+R0105,include,
+R0111,include,
+R0112,include,
+R0123,include,
+R0127,include,
+R0128,include,
+R0131,include,
+R0134,include,
+R0138,not_assessed,"Retrieved file is the publisher ebook abstract page only, no article body; full text not retrieved in substance"
+R0146,exclude,"Qualitative content analysis of clinician edits; edits were not graded as errors against the encounter and no protocol outcome (time, burnout scale, quality score, error count) is reported"
+R0148,include,
+R0155,include,
+R0165,include,
+R0170,include,
+R0173,include,
+R0179,include,
+R0181,include,
+R0183,include,
+R0185,exclude,"Simulation study; outcomes are clinician editing and dictation time measured in simulated encounters, with no graded note quality or error outcome against a reference"
+R0186,include,
+R0191,include,
+R0198,include,
+R0205,include,
+R0206,include,
+R0209,include,
+R0210,include,
+R0232,include,
+R0235,include,
+R0240,include,
+R0245,include,
+R0255,include,
+R0256,include,
+R0257,include,
+R0265,include,
+R0270,include,
+R0273,include,
+R0275,include,
+R0277,include,
+R0278,include,
+R0279,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0281,include,
+R0287,include,
+R0290,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0292,include,
+R0295,include,
+R0301,not_assessed,"Retrieved file is the Ovid paywall landing page only, no article text; full text not retrieved in substance"
+R0308,include,
+R0312,include,
+R0313,include,
+R0316,include,
+R0322,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0323,exclude,"Duplicate report: medRxiv preprint of the same randomised trial published as R0257 (Lukac et al, NEJM AI); published report used"
+R0324,include,
+R0331,include,
+R0332,exclude,"Duplicate report: medRxiv preprint of the same study published as R0245 (Castro et al, JAMA Psychiatry); published report used"
+R0346,include,
+R0353,include,
+R0355,include,
+R0360,include,
+R0363,include,
+R0366,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0372,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0373,include,
+R0379,exclude,"Intervention is a general purpose LLM (ChatGPT-4) applied to encounter transcripts, not an ambient scribe product; protocol section 3.3 excludes typed or pasted text summarisation tools"
+R0381,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0385,include,
+R0392,include,
+R0395,include,
+R0407,exclude,"Duplicate report: medRxiv preprint of the same study published as R0030 (Draper et al, BMJ Digital Health and AI); published report used"
+R0408,include,
+R0412,include,
+R0414,include,
+R0424,exclude,"Duplicate report: medRxiv preprint of the same study published as R0206 (van Linschoten et al, npj Digital Medicine); published report used"
+R0425,not_assessed,"Retrieved file is a Europe PMC JavaScript stub page, no article text; full text not retrieved in substance"
+R0426,include,
+R0435,include,
+R0506,awaiting,Conference abstract in a journal supplement; reports mean accuracy by vendor for scripted tests but no notes denominator or extractable outcome data in protocol form
+R0548,include,
