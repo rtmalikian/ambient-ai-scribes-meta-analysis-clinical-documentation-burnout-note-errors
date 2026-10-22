@@ -1,3 +1,13 @@
+# 📄 Download the full article — PDF
+
+[![Download PDF](https://img.shields.io/badge/Download-Full%20Article%20PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors/raw/main/manuscript.pdf)
+
+### 👉 [**Click here to download the PDF**](https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors/raw/main/manuscript.pdf)
+
+*One click — no sign-up, no paywall. The full text is also embedded in this README below.*
+
+---
+
 # Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team
 
 **Author:** Raphael Malikian, independent researcher, healthcare founder and operator, clinical AI builder.
