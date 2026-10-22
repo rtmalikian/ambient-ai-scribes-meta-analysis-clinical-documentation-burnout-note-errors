@@ -1,114 +1,145 @@
 # Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team
 
-**Author:** Raphael Malikian, independent researcher, healthcare founder and operator, clinical AI builder.
+Author: Raphael Malikian, independent researcher, healthcare founder and operator, clinical AI builder.
 
-**Method in one line:** Cochrane Handbook version 6.5 methods, PRISMA 2020 reporting, one human author accountable for every number, and a team of large language model roles doing the team tasks a Cochrane group would do.
+Method in one line: Cochrane-level methods, a team of large language model roles in place of a human research team, and one human author who is accountable for every number in the finished review.
 
-## Status: Stage 2 complete
+Repository: https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors
 
-This repository is published in stages, as the work is done. Each stage is uploaded when it is finished and checked, with its data files beside the text. The stage list below shows where the review stands today, 22 October 2026.
+## Status
 
-Done:
+Stage 3 is complete as of 22 October 2026. This is a staged public release of work in progress, version 0.3.
 
-- Stage 1, protocol: a PROSPERO-ready protocol and a field by field PROSPERO form, with eligibility rules, outcomes, subgroups and analysis plans set before extraction.
-- Stage 2, search: 1,049 records identified across PubMed (385), Europe PMC (299), OpenAIRE (346 across two runs) and ClinicalTrials.gov (19). OpenAlex and Semantic Scholar runs were blocked by rate limits and are logged as blocked. Strings for Embase, CINAHL, PsycINFO, Cochrane CENTRAL, Scopus, Web of Science and ACM Digital Library are prepared and marked as run pending access.
-- Stage 2, deduplication: 482 duplicate records removed, leaving 567 records for screening.
-- Stage 2, screening stage 1: two independent screening passes over 567 records, agreement rate 0.77, Cohen kappa 0.64, 128 disagreements adjudicated, 104 records excluded, 463 records passed on.
-- Stage 2, screening stage 2: every one of the 463 abstracts read against the protocol rules, 306 records excluded, 157 reports sought for full text retrieval.
-- Forms ready for the next stage: a 39 field extraction form and RoB 2 and ROBINS-I judgement templates.
+- 157 reports were sought for retrieval.
+- 83 full texts were assessed for eligibility.
+- 74 studies are included.
+- Data extraction is under way.
+- Risk of bias assessment, synthesis and GRADE ratings are pending.
 
-Not done yet:
+No pooled result exists yet, and this repository states none. No effect estimate, no summary of findings table and no GRADE rating will appear here until the extraction checks, risk of bias work and synthesis are done and signed off by the author.
 
-- Stage 3, full text retrieval, full text screening and extraction, is in progress.
-- No pooled result exists at this stage. This README claims no result, and no number in this repository is a result of this review yet. The numbers above are counts of records and screening calls. Effect estimates named in the background section belong to the published studies cited there.
-- No summary of findings table exists yet. It will be added at Stage 4, after extraction and risk of bias work.
-- A PROSPERO registration number and a preprint DOI are pending. Placeholder lines in this README will be replaced with the record links when each record exists.
+Registration: the protocol was prepared for PROSPERO. The registration number is pending. The Zenodo DOI is pending. Neither number is stated here because neither exists yet.
 
 ## The question
 
-To assess the effects of ambient AI scribes, compared with usual documentation, dictation or manual typing, on documentation time, after-hours work, clinician burnout, note quality and note errors in outpatient and inpatient care.
+Health systems have bought ambient AI scribes on the claim that the tools cut documentation work. This review asks whether that claim holds when the time and burnout outcomes are set against note error outcomes in the same review.
 
-An ambient AI scribe listens to a clinical encounter, with patient consent, and drafts a structured note that the clinician reviews, edits and signs. Products in scope include Microsoft DAX Copilot and Dragon Ambient eXperience, Nabla, Abridge and Ambience Healthcare products, and any equivalent tool that captures an encounter and drafts the note.
+Research questions, from protocol.md:
 
-### PICO
+- RQ1. What is the effect of ambient AI scribes on documentation time, measured from electronic health record audit logs or timed observation?
+- RQ2. What is the effect on after-hours documentation time, often called pajama time?
+- RQ3. What is the effect on clinician burnout, work exhaustion and professional fulfillment, measured on validated scales?
+- RQ4. What is the effect on note quality, measured on a named instrument?
+- RQ5. How often do ambient scribe notes contain omissions, hallucinations or fabrications, and wrong inclusions, per note audited?
+- RQ6. Do effects differ by product, specialty, study design, vendor funding and follow-up length?
 
-| Part | What the protocol sets |
-|---|---|
-| Population | Clinicians who document patient encounters, any specialty, any country: physicians, advanced practice clinicians such as nurse practitioners and physician assistants, and other documenting clinicians, in outpatient, inpatient, emergency and virtual care |
-| Intervention | Ambient AI scribe: software that captures a clinical encounter by listening, with consent, and generates a draft clinical note for clinician review and signature, with no dictation step. Dictation-only tools and typed prompt summary tools are out, unless a study reports an ambient arm apart |
-| Comparator | Usual documentation, manual typing, dictation, speech recognition, human scribe, no scribe, or the same clinicians in a pre-implementation period |
-| Critical outcomes | Documentation time from electronic health record audit logs or timed observation; after-hours documentation time; burnout and work exhaustion on a validated scale; note errors per note audited, split into omissions, hallucinations or fabrications, and wrong inclusions |
-| Important outcomes | Note quality on a named instrument; professional fulfillment; time to note closure; patient experience where a study measured it; note length, reported as a cost signal |
-| Study designs | Randomised trials including stepped wedge, non-randomised studies with a concurrent comparison, uncontrolled before and after studies synthesised apart from controlled studies, and note audit studies that grade a defined sample of notes and report a denominator in notes |
+## PICO
 
-Full eligibility wording, outcome definitions and time point groups sit in [protocol.md](protocol.md).
+| Element | Definition in the protocol |
+| --- | --- |
+| Population | Clinicians who document patient encounters in any specialty and any country: physicians, advanced practice clinicians such as nurse practitioners and physician assistants, and other documenting clinicians. Settings: outpatient, inpatient, emergency and virtual care, primary and secondary care. |
+| Intervention | Ambient AI scribe: software that captures a clinical encounter by listening, with patient consent, and generates a draft clinical note for clinician review and signature, with no dictation step by the clinician. Named products in the protocol include Microsoft DAX Copilot and Dragon Ambient eXperience, Nabla, Abridge, and Ambience Healthcare products. Equivalent ambient products are eligible on the same test. |
+| Comparator | Usual documentation, manual typing, dictation, speech recognition, human scribe, no scribe, or the same clinicians in a pre-implementation period. |
+| Outcomes, critical | Documentation time. After-hours documentation time. Burnout and work exhaustion on validated scales. Note errors per note audited, in three types kept apart: omissions, hallucinations or fabrications, and wrong inclusions. |
+| Outcomes, important | Note quality on a named instrument. Professional fulfillment. Time to note closure. Patient experience. Note length. |
 
-## Why this review matters
+Full eligibility rules, outcome definitions and time point rules sit in protocol.md, sections 3 and 4.
 
-Health systems bought these tools at enterprise scale before the evidence settled. Kaiser Permanente rolled one tool out to 7,260 physicians across 2,576,627 encounters (Kaiser Permanente Division of Research report of the TPMG rollout, 2023 to 2024). Menlo Ventures put ambient scribe spending at $600M in 2025, up 2.4 times on the year before, the largest single category in $1.4B of healthcare AI spending (Menlo Ventures, State of AI in Healthcare, 2025).
+## PRISMA 2020 flow, Stage 3
 
-The synthesis behind that spending is thin. Zhao and colleagues published the one prior meta-analysis in 2025 in BMC Medical Informatics and Decision Making, covering artificial intelligence tools for clinical note creation in general: 23 studies, pooled standardised mean difference minus 0.71 for documentation burden, heterogeneity I squared 93.3 percent, and study quality described as generally low. It came out before the 2025 randomised trials, and it did not pool note errors beside time and burnout.
+Counts below are taken from prisma-stage3.md, which is built from retrieval-log.csv and fulltext-screening.csv. Counts from the earlier stages sit in search-log.md and screening.csv.
 
-The field knows the gap is open. NEJM AI paired its December 2025 randomised trial reports with an editorial titled "AI Scribes Are Not Productivity Tools (Yet)". Regulators and system leaders have issued guidance that asks for local validation and error monitoring: NHS England ambient scribing guidance on 27 April 2025, and the Joint Commission and Coalition for Health AI responsible use guidance on 17 September 2025. Guidance can ask for a pooled estimate with a certainty rating. At the time of writing, no published review gives one for ambient scribes alone, with error burden pooled beside benefit. This review aims to supply that estimate, with its data and code in public.
+Identification and title and abstract screening, 22 October 2026:
+
+- Records identified across all runs: 1049 (PubMed 385, Europe PMC 299, OpenAIRE run 1: 145, OpenAIRE run 2: 201, ClinicalTrials.gov 19).
+- Duplicate records removed before screening: 482.
+- Records screened at title and abstract: 567.
+- Records excluded at title and abstract: 104.
+- A strict second pass then set the full text set: 157 reports marked for retrieval.
+
+Full text stage, Stage 3:
+
+- Reports sought for retrieval: 157
+- Reports not retrieved: 74
+  - 65 records yielded no file at all: no free full text found through Europe PMC or PubMed Central full text, Unpaywall open access locations, publisher open access pages, or medRxiv full text, across three retrieval waves.
+  - 9 more files first counted as retrieved turned out to hold no article text (7 Europe PMC JavaScript stub pages, 1 paywall landing page, 1 publisher abstract page) and were moved to not retrieved in substance.
+- Reports assessed for eligibility: 83 (157 sought, minus 74 not retrieved)
+- Reports excluded at full text: 8
+  - Qualitative study only, no quantitative protocol outcome: 1 (R0003)
+  - No protocol outcome as defined (edit content analysis, edits not graded as errors): 1 (R0146)
+  - Simulation study, outcomes measured in simulated encounters, no graded note outcome: 1 (R0185)
+  - Wrong intervention (general purpose LLM on transcripts, not an ambient scribe product): 1 (R0379)
+  - Duplicate report of a study already in the set, published version used: 4 (R0323 preprint of R0257; R0332 preprint of R0245; R0407 preprint of R0030; R0424 preprint of R0206)
+- Reports awaiting classification: 1 (R0506, conference abstract in a journal supplement, no notes denominator or extractable outcome data in protocol form)
+- Studies included: 74
+- Reports of included studies: 74 (one report per study in the assessed set)
+
+No record was retrieved from a pirated source. No paywalled record was counted as assessed on the basis of its abstract, except the flagged records resolved in flagged-resolutions-stage3.md, where the basis is stated per record.
 
 ## The LLM team
 
-A Cochrane review is normally written by a group: a search specialist, two screeners who work apart, two extractors, a statistician, and editors who check method. This review has one human author. In place of that group it uses a team of large language model roles, set up with the same separations, and it reports how that team performed in numbers.
+A Cochrane review is normally written by a team. This review has one human author, so a team of large language model roles does the team tasks, set up with the same separations as the human team. The roles, from protocol.md section 6:
 
-Roles:
+1. Information specialist. Builds the search string for each source, runs it or marks it run pending access, and records string, date and hit count in the search log.
+2. Screener A. Works through every title and abstract alone and records include, exclude or maybe, with a reason for each exclude.
+3. Screener B. Does the same work in a separate pass, with a separate prompt, and does not see Screener A calls until both passes are complete.
+4. Adjudicator. Takes every record where A and B disagree and settles the call with a logged reason. Items it cannot settle go to the human author.
+5. Extractor A. Extracts each included study on the piloted form.
+6. Extractor B. Extracts the same studies alone, in a separate pass. The two sheets are compared field by field and every mismatch is logged and settled against the source document.
+7. Risk of bias assessor pair. Two independent passes, RoB 2 for trials and ROBINS-I for non-randomised studies, per outcome. Disagreements go to the human author.
+8. Statistician. Writes the meta-analysis code, runs it, and checks it a second way. Code and data are posted with the review.
+9. GRADE assessor. Drafts the GRADE rating per outcome with the reason for each downgrade, or the reason none was made. The human author signs each rating.
+10. Methods editor. Checks the finished manuscript against PRISMA 2020 and the Cochrane Handbook structure.
 
-| Role | Job |
-|---|---|
-| Information specialist | Builds and runs a search string per database, records string, date and hit count |
-| Screener A | Calls every title and abstract include, exclude or maybe, alone, with a reason per exclude |
-| Screener B | Same work in a separate pass with a separate prompt, with no sight of screener A calls until both passes end |
-| Adjudicator | Settles every A and B disagreement with a logged reason, and flags items it cannot settle for the human author |
-| Extractor A and extractor B | Extract each included study apart, on the same piloted form, for a field by field comparison |
-| Risk of bias assessor pair | Two independent passes on RoB 2 for trials and ROBINS-I for non-randomised studies, per outcome |
-| Statistician | Writes the meta-analysis code, runs it, and checks one pool by hand against the extraction sheet |
-| GRADE assessor | Drafts the certainty rating per outcome, with the reason for each downgrade |
-| Methods editor | Checks the finished manuscript against PRISMA 2020, MECIR style conduct standards and the Cochrane Handbook structure |
+Independence rules in short form: the A and B passes run apart, neither prompt contains the other pass calls, comparison happens only in a merge step done by code, and the adjudicator does not see any author preference. Prompts, model name and version, and dates for each role sit in llm-team-log.md and prompts.md.
 
-Independence rules, in short: A and B passes run apart, comparison happens in a merge step by code, the adjudicator sees both calls and both reasons, and prompt changes are versioned in the log. Raphael Malikian sets the question and the eligibility rules, settles every flagged item and every risk of bias and GRADE disagreement, checks every extracted number that enters a pool against its source document, and signs off the final numbers.
+Mechanics reported so far, from llm-team-log.md. Title and abstract screening, 22 October 2026:
 
-Mechanics so far, from the title and abstract stage: 567 records screened, agreement 439 records, agreement rate 0.7743, Cohen kappa 0.6439, disagreements 128 (97 maybe against include, 15 exclude against maybe, 13 include against exclude, 3 maybe against exclude). The 13 include against exclude records were flagged for the human author. Extraction discrepancy rates will be added when the extractor pair runs. Full log: [llm-team-log.md](llm-team-log.md). Prompts: [prompts.md](prompts.md).
+- Records screened: 567.
+- Agreements: 439. Agreement rate: 0.7743.
+- Cohen kappa: 0.6439.
+- Disagreements: 128.
+- Records flagged for the human author at that stage: 13.
+- Final calls after adjudication: include 328, maybe 135, exclude 104.
 
-## Repository contents
+The 21 records flagged at Stage 2 were resolved at the full text stage. Each resolution, with its basis, sits in flagged-resolutions-stage3.md.
 
-| File | What it holds |
-|---|---|
-| [concept-and-protocol.md](concept-and-protocol.md) | The concept paper: topic scoring, the gap, and the first protocol sketch |
-| [protocol.md](protocol.md) | The PROSPERO-ready protocol, version 1.0, 22 October 2026 |
-| [prospero-form.md](prospero-form.md) | The PROSPERO form, field by field, matching the protocol |
-| [search-log.md](search-log.md) | Search string as run, date and hit count per source, with blocked sources logged as blocked |
-| [search-appendix-pending.md](search-appendix-pending.md) | Ready to run strings for databases with access pending, each marked as such |
-| [search-results.csv](search-results.csv) | The 567 deduplicated records: title, authors, year, sources, identifier, abstract, link |
-| [screening.csv](screening.csv) | Stage 1 screening: screener A and B calls, reasons, adjudicated decision per record |
-| [screening-stage2.csv](screening-stage2.csv) | Stage 2 strict screening of the 463 passed records, with a reason grounded in each abstract |
-| [prisma-flow.md](prisma-flow.md) | PRISMA 2020 flow counts from the Stage 1 files |
-| [stage2-prisma-update.md](stage2-prisma-update.md) | Updated PRISMA counts after Stage 2, with exclusions by reason |
-| [full-text-list-v2.md](full-text-list-v2.md) | The 157 reports sought for full text retrieval, with design, reason, identifier and link |
-| [flagged-for-author-v2.md](flagged-for-author-v2.md) | Records with a genuinely open question for the human author |
-| [background-studies-stage2.md](background-studies-stage2.md) | Qualitative attitudes studies kept for the background and discussion, outside the synthesis |
-| [llm-team-log.md](llm-team-log.md) | LLM team setup, agreement and kappa, disagreement types and adjudication outcomes |
-| [extraction-form.md](extraction-form.md) | The piloted extraction form, 39 fields, with vendor role recorded per study |
-| [rob-forms.md](rob-forms.md) | RoB 2 and ROBINS-I judgement templates, per outcome, with confounders set in advance |
-| [prompts.md](prompts.md) | Screener A, screener B and adjudicator prompts, version 1 |
-| [github-publication-plan.md](github-publication-plan.md) | The publication plan for this repository: name, description, topics and staged release plan |
-| [CITATION.cff](CITATION.cff) | Citation file, so GitHub shows a cite button for this work |
-| [LICENSE](LICENSE) | Creative Commons Attribution 4.0 International licence text |
+Human oversight: Raphael Malikian set the review question and the eligibility rules in the protocol. He settles every item the adjudicator flags, every risk of bias disagreement and every GRADE rating, and he checks every extracted number that enters a pool against the source document before he signs off the final numbers. No number in the finished review rests on a model pass alone.
 
-Copyrighted publisher full texts are not in this repository and never will be. Retrieval notes and extraction sheets will name each source so a reader can find the same text through a library.
+## Files in this repo
 
-## Staged roadmap
+- protocol.md: the full protocol, version 1.0, 22 October 2026. Question, eligibility, outcomes, search methods, synthesis plan and GRADE plan.
+- prospero-form.md: the PROSPERO registration form as prepared. Registration number pending.
+- search-log.md: each search string as run, with date, hit count and retrieved count per source, plus the sources that were attempted and blocked and the sources not run in this pass.
+- search-results.csv: every retrieved record after deduplication, with source named per row. 567 records.
+- screening.csv: title and abstract screening calls.
+- screening-stage2.csv: the strict second pass that set the 157 reports for full text retrieval.
+- full-text-list-v2.md: the full text list at Stage 2.
+- flagged-for-author-v2.md: the 21 records flagged for the author at Stage 2.
+- retrieval-log.csv: retrieval outcome per report sought.
+- fulltext-screening.csv: full text screening calls, with one reason per exclusion and the not assessed records named.
+- prisma-stage3.md: the PRISMA 2020 flow counts at Stage 3, as quoted above.
+- flagged-resolutions-stage3.md: how each of the 21 flagged records was resolved, with the basis stated per record.
+- extraction-form.md: the piloted data extraction form.
+- extraction.csv: the working extraction sheet for the included studies. Extraction is under way.
+- rob-forms.md: risk of bias forms, RoB 2 and ROBINS-I templates.
+- prompts.md: role prompts and decision procedures, version 1.
+- llm-team-log.md: the log of the LLM team set up, agreement counts and adjudication outcomes. This log is data for the finished review.
+- CITATION.cff: citation metadata so GitHub shows its cite button.
+- LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-- Stage 1, protocol. Done. Protocol and PROSPERO form in this repository.
-- Stage 2, search and screening. Done. Search log, record set, both screening passes and PRISMA counts in this repository.
-- Stage 3, full text and extraction. In progress. Retrieval log, full text screening calls with one reason per exclude, the extraction sheet and the risk of bias judgements will be uploaded at this stage.
-- Stage 4, meta-analysis and GRADE. Random effects pools in R for time, after-hours work and burnout, proportions for each error type kept apart, subgroup and sensitivity runs as set in the protocol, and a summary of findings table with at most seven outcomes. Analysis code and figures will be uploaded at this stage.
-- Stage 5, manuscript, preprint and journal submission. Full manuscript in Markdown and PDF, Zenodo preprint record, medRxiv record where the framing fits, and one submission to a journal that charges no fee, by the subscription route. A conference abstract version will be prepared at the same stage.
+Retrieved publisher full texts are not in this repository. They are other authors' copyrighted papers. The screening and extraction files record what was read and what was taken from each report.
 
-Each stage will land as its own commit, signed off by the author, so the history of this repository reads as the history of the review.
+## Data and code availability
+
+The search data, screening calls, retrieval log, full text calls and extraction sheet in this repository are the working record of the review at Stage 3. Analysis code in R will be added with the synthesis stage, and any reader will be able to rerun the analysis from the posted data once it lands. Files are released in stages as each stage completes, and this README is updated at each stage.
+
+## Links
+
+- GitHub repository: https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors
+- PROSPERO record: pending. No link exists yet.
+- Zenodo record and DOI: pending. No link exists yet.
+- medRxiv record: not posted yet.
 
 ## Declarations
 
@@ -116,22 +147,21 @@ Funding: none. No grant, no sponsor, no industry support, no product access give
 
 Conflicts of interest: none. The author has no industry affiliation of any kind and is fully independent.
 
-AI use, RAISE 2025: a team of large language model roles (Muse Spark, Meta, October 2026) carried out the team tasks of this review under named roles and independence rules set in the protocol, following the 2025 RAISE statement on responsible AI use in evidence synthesis from Cochrane, Campbell, JBI and the Collaboration for Environmental Evidence. The human author set the question and the eligibility rules and is accountable for every judgement, every checked number and the final text. Journals and conferences that ask for an AI use statement will get these same facts.
+AI use note: this review was built with help from a team of large language model roles (Muse Spark, Meta, October 2026) working under the roles and separations set out in the protocol and logged in llm-team-log.md. The human author set the question and the eligibility rules, settles flagged items and disagreements, checks numbers against source documents, and is accountable for every judgement and for the final text. This follows the 2025 RAISE statement on responsible AI use in evidence synthesis.
 
-Scope: this work is evidence synthesis and policy discussion only. It gives no clinical advice, no medication advice and no advice for the care of any individual patient. It makes no claim about any single product beyond what the included studies report.
-
-## How to cite
-
-Cite this repository through [CITATION.cff](CITATION.cff), which GitHub reads for its cite button:
-
-Malikian R. Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team. Version 0.2-stage2, 2026.
-
-DOI: pending. A Zenodo DOI will be added here and to CITATION.cff when the preprint record exists. PROSPERO registration number: pending, to be added in the same way.
+Scope note: this is evidence synthesis and policy discussion only. It makes no clinical recommendation and no medication recommendation, and it gives no advice for the care of any individual patient.
 
 ## Licence
 
-Text and data in this repository are published under the Creative Commons Attribution 4.0 International licence, CC BY 4.0. The full licence text is in [LICENSE](LICENSE). Analysis code added at Stage 4 will carry its licence in its own folder.
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material for any purpose, provided you give appropriate credit to the author, provide a link to the licence, and indicate if changes were made. See the LICENSE file in this repository.
 
-## Contact
+## How to cite
 
-Raphael Malikian, rtmalikian@gmail.com, GitHub [@rtmalikian](https://github.com/rtmalikian). Corrections and missed studies are welcome as issues in this repository. A correction that changes a number will be logged in the repository history with its reason.
+Malikian, Raphael (2026). Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team. Version 0.3 (Stage 3). GitHub repository: https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors
+
+A Zenodo DOI is pending and will be added here once the record exists. Until then, cite the GitHub repository URL above.
+
+## Version history
+
+- 0.3, 22 October 2026: Stage 3 release. Full text stage complete: 157 reports sought, 83 assessed, 74 studies included. Extraction under way. No pooled result.
+- Earlier stages (protocol, search, title and abstract screening, strict second pass) are recorded in the files listed above, with dates in each file.
