@@ -1,0 +1,158 @@
+record_id,retrieved,source,url,file,bytes
+R0003,yes,Europe PMC full text URL list,https://doi.org/10.1007/s11606-026-10931-4,R0003.html,465641
+R0004,no,,,,0
+R0005,no,,,,0
+R0006,no,,,,0
+R0008,no,,,,0
+R0012,yes,Europe PMC full text URL list,https://doi.org/10.1007/s00345-026-06860-w,R0012.html,316157
+R0014,no,,,,0
+R0023,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13631493/fullTextXML,R0023.xml,62840
+R0027,no,,,,0
+R0029,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528381/fullTextXML,R0029.xml,107287
+R0030,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528354/fullTextXML,R0030.xml,83271
+R0043,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13574497/fullTextXML,R0043.xml,128089
+R0048,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13492186/fullTextXML,R0048.xml,81114
+R0049,no,,,,0
+R0059,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13458937/fullTextXML,R0059.xml,101188
+R0068,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13445347/fullTextXML,R0068.xml,57225
+R0076,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13412140/fullTextXML,R0076.xml,39436
+R0077,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13381512/fullTextXML,R0077.xml,97782
+R0078,yes,Unpaywall OA location,https://journals.stfm.org:/media/0mfhiys2/primer-10-21.pdf,R0078.pdf,133816
+R0091,no,,,,0
+R0092,no,,,,0
+R0098,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13340570/fullTextXML,R0098.xml,117873
+R0102,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13376842/fullTextXML,R0102.xml,96541
+R0105,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13331185/fullTextXML,R0105.xml,79470
+R0108,no,,,,0
+R0109,no,,,,0
+R0111,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13289844/fullTextXML,R0111.xml,66887
+R0112,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13580746/fullTextXML,R0112.xml,70906
+R0116,no,,,,0
+R0120,no,,,,0
+R0121,no,,,,0
+R0123,yes,Europe PMC full text URL list,https://europepmc.org/articles/PMC13557418?pdf=render,R0123.pdf,2001342
+R0126,no,,,,0
+R0127,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/12/27/2025.12.19.25342691.full.pdf,R0127.pdf,192144
+R0128,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13240794/fullTextXML,R0128.xml,88989
+R0131,yes,Europe PMC full text URL list,https://doi.org/10.1007/s11606-026-10448-w,R0131.html,282266
+R0134,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13221680/fullTextXML,R0134.xml,32311
+R0137,no,,,,0
+R0138,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://doi.org/10.3233/shti260257,R0138.html,24223
+R0140,no,,,,0
+R0146,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13386006/fullTextXML,R0146.xml,97914
+R0148,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13192280/fullTextXML,R0148.xml,55868
+R0155,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13147221/fullTextXML,R0155.xml,55074
+R0165,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13110523/fullTextXML,R0165.xml,73774
+R0170,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13089619/fullTextXML,R0170.xml,62704
+R0171,no,,,,0
+R0173,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13076117/fullTextXML,R0173.xml,171893
+R0179,yes,Unpaywall OA location,https://www1.racgp.org.au/getattachment/bbb796a6-a899-420b-a11f-d93d73c9b95c/A-comparative-analysis-of-AI-scribes-versus-human.aspx,R0179.pdf,200550
+R0181,yes,Unpaywall OA location,https://harvest.usask.ca/bitstreams/def659b0-ecef-4fa2-b370-c4e032abc32e/download,R0181.pdf,785387
+R0183,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC13044793/,R0183.html,198077
+R0185,yes,Europe PMC full text URL list,https://doi.org/10.1007/s43678-026-01141-2,R0185.html,298646
+R0186,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13037756/fullTextXML,R0186.xml,74746
+R0191,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13012219/fullTextXML,R0191.xml,90742
+R0198,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12981374/fullTextXML,R0198.xml,86352
+R0205,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12996897/fullTextXML,R0205.xml,78144
+R0206,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13065737/fullTextXML,R0206.xml,106505
+R0208,no,,,,0
+R0209,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC12934867/,R0209.html,93940
+R0210,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13057267/fullTextXML,R0210.xml,109110
+R0211,no,,,,0
+R0213,no,,,,0
+R0217,no,,,,0
+R0220,no,,,,0
+R0227,no,,,,0
+R0229,no,,,,0
+R0232,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12880801/fullTextXML,R0232.xml,51624
+R0235,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/,R0235.html,249137
+R0240,yes,Europe PMC full text URL list,https://doi.org/10.37765/ajmc.2026.89869,R0240.html,933726
+R0245,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824846/fullTextXML,R0245.xml,71517
+R0255,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12882620/fullTextXML,R0255.xml,83582
+R0256,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12780926/fullTextXML,R0256.xml,40665
+R0257,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC12768499/,R0257.html,232637
+R0265,yes,Europe PMC full text URL list,https://doi.org/10.1007/s00464-025-12404-x,R0265.html,309969
+R0270,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12657781/fullTextXML,R0270.xml,91719
+R0273,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12638734/fullTextXML,R0273.xml,88548
+R0274,no,,,,0
+R0275,yes,Europe PMC full text URL list,https://doi.org/10.1007/s11606-025-09979-5,R0275.html,376813
+R0277,yes,Unpaywall OA location,https://doi.org/10.3233/shti251572,R0277.html,24180
+R0278,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12604654/fullTextXML,R0278.xml,37561
+R0279,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC12605982,R0279.html,28371
+R0281,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12586549/fullTextXML,R0281.xml,81970
+R0282,no,,,,0
+R0287,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12551534/fullTextXML,R0287.xml,53302
+R0290,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC12844569,R0290.html,28371
+R0292,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12514625/fullTextXML,R0292.xml,101493
+R0295,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12492056/fullTextXML,R0295.xml,117130
+R0301,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://doi.org/10.5435/JAAOS-D-24-01321,R0301.html,164657
+R0308,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12371510/fullTextXML,R0308.xml,124763
+R0312,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13039322/fullTextXML,R0312.xml,37413
+R0313,yes,Unpaywall OA location,https://doi.org/10.3233/shti250857,R0313.html,24060
+R0316,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12309782/fullTextXML,R0316.xml,118682
+R0322,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC12425613,R0322.html,28371
+R0323,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/07/11/2025.07.10.25331333.full.pdf,R0323.pdf,927544
+R0324,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC12367366/,R0324.html,154045
+R0331,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12146405/fullTextXML,R0331.xml,55405
+R0332,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/05/15/2025.05.14.25327620.full.pdf,R0332.pdf,522310
+R0334,no,,,,0
+R0344,no,,,,0
+R0346,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12048851/fullTextXML,R0346.xml,133406
+R0353,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11975833/fullTextXML,R0353.xml,23310
+R0355,yes,Unpaywall OA location,https://pmc.ncbi.nlm.nih.gov/articles/PMC12240662/,R0355.html,156530
+R0360,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11840636/fullTextXML,R0360.xml,86820
+R0363,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11811668/fullTextXML,R0363.xml,27321
+R0366,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC11756633,R0366.html,28371
+R0369,no,,,,0
+R0372,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC11922620,R0372.html,28371
+R0373,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11452835/fullTextXML,R0373.xml,48537
+R0379,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11074889/fullTextXML,R0379.xml,78092
+R0381,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC10990544,R0381.html,28376
+R0385,yes,medRxiv full text,https://www.medrxiv.org/content/10.1101/2025.09.21.25336260v1.full,R0385.html,231643
+R0392,yes,Unpaywall OA location,https://www.researchsquare.com/article/rs-9929134/latest.pdf,R0392.pdf,318456
+R0394,no,,,,0
+R0395,yes,Unpaywall OA location,https://www.researchsquare.com/article/rs-9139641/latest.pdf,R0395.pdf,664526
+R0396,no,,,,0
+R0401,no,,,,0
+R0407,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/03/24/2025.03.24.25324398.full.pdf,R0407.pdf,704400
+R0408,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2026/08/21/2026.08.18.26360701.full.pdf,R0408.pdf,561819
+R0412,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2024/07/19/2024.07.18.24310656.full.pdf,R0412.pdf,147592
+R0414,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/11/09/2025.11.07.25339620.full.pdf,R0414.pdf,867440
+R0415,no,,,,0
+R0424,yes,medRxiv full text,https://www.medrxiv.org/content/10.1101/2025.10.30.25339135v1.full,R0424.html,240076
+R0425,no,file held no article text (stub or landing page); see fulltext-screening.csv,https://europepmc.org/articles/PMC12012335,R0425.html,28376
+R0426,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2025/06/26/2025.06.24.25330085.full.pdf,R0426.pdf,571160
+R0434,no,,,,0
+R0435,yes,Unpaywall OA location,https://www.medrxiv.org/content/medrxiv/early/2026/02/24/2026.02.19.26346634.full.pdf,R0435.pdf,156619
+R0436,no,,,,0
+R0437,no,,,,0
+R0440,no,,,,0
+R0442,no,,,,0
+R0445,no,,,,0
+R0453,no,,,,0
+R0457,no,,,,0
+R0458,no,,,,0
+R0461,no,,,,0
+R0463,no,,,,0
+R0467,no,,,,0
+R0472,no,,,,0
+R0473,no,,,,0
+R0475,no,,,,0
+R0496,no,,,,0
+R0506,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13325221/fullTextXML,R0506.xml,7369
+R0507,no,,,,0
+R0510,no,,,,0
+R0513,no,,,,0
+R0516,no,,,,0
+R0520,no,,,,0
+R0524,no,,,,0
+R0527,no,,,,0
+R0528,no,,,,0
+R0533,no,,,,0
+R0534,no,,,,0
+R0536,no,,,,0
+R0538,no,,,,0
+R0539,no,,,,0
+R0540,no,,,,0
+R0544,no,,,,0
+R0548,yes,Europe PMC full text (PMC),https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13354122/fullTextXML,R0548.xml,117543
