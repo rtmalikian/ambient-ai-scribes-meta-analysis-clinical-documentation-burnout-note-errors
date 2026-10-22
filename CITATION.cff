@@ -6,7 +6,7 @@ authors:
 title: "Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team"
 date-released: 2026-10-22
 year: 2026
-version: 0.3
+version: "1.0"
 repository-code: "https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors"
 url: "https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors"
 license: CC-BY-4.0
@@ -17,4 +17,4 @@ keywords:
   - clinical documentation
   - clinician burnout
   - note errors
-abstract: "Cochrane-level systematic review and meta-analysis of ambient AI scribes for clinical documentation. Stage 3 release, 22 October 2026: 157 reports sought, 83 full texts assessed, 74 studies included, extraction under way. No pooled result exists yet."
+abstract: "Cochrane-level systematic review and meta-analysis of ambient AI scribes for clinical documentation. Version 1.0, 22 October 2026: 74 studies included. Documentation time fell by about a fifth on average (relative change -18.9%, k 15; SMD -0.38, k 13, GRADE low); work exhaustion fell in the two randomised trials (SMD -0.44, GRADE moderate); notes with at least one error pooled at 59.8% (k 2, GRADE very low). A DOI will be added when the preprint record exists; no DOI yet."
