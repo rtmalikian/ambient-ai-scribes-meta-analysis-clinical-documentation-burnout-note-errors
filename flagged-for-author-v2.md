@@ -1,0 +1,46 @@
+# Flagged for the author, version 2
+
+21 records where the abstract left a real question open. Each entry gives the Stage 2 call and what is unclear. Everything else in the 463 was settled at title and abstract.
+
+- **R0003** (include) | The Ambulatory Patient Experience with Ambient Artificial Intelligence Scribes: A Qualitative Study.
+  - Recorded reason: Qualitative patient experience study tied to ambient scribe encounters in a pragmatic trial, reports patient experience outcomes including communication and note thoroughness
+- **R0039** (exclude) | Effect of Ambient Listening Technology on E&M Codes in Orthopaedic Surgery.
+  - Recorded reason: Comparative study outcome is E and M coding concordance and revenue only, no protocol outcome from the eligible list is reported
+- **R0096** (exclude) | Evaluating the impact of artificial intelligence scribes on clinical documentation in primary care: a simulation study.
+  - Recorded reason: Simulation only study with standardised patients measuring documentation time in simulated encounters, no real encounter study and no ambient note output audit
+- **R0098** (include) | Feasibility of Tailoring Artificial Intelligence-Assisted Ambient Scribes for Intensive Care Unit Rounds: Algorithm Development and Validation.
+  - Recorded reason: Standardised audit of generated notes from simulated ICU round transcripts reporting accuracy error percentages and PDQI-9 quality
+- **R0103** (exclude) | Exploring Ambient Artificial Intelligence to Enhance Learning and Feedback During Operating Room-to-Intensive Care Unit Handoffs: Co-Design and Simulation Study.
+  - Recorded reason: Simulation education study of a handoff assistant for trainee feedback not an evaluation of clinical encounter documentation in real care
+- **R0123** (include) | Prompt-directed ambient artificial intelligence for automated multidisciplinary tumor board documentation.
+  - Recorded reason: Prospective quality improvement study of 12 tumor boards reporting documentation quality scores and administrative time per patient for ambient AI versus manual
+- **R0138** (include) | Integrating AI Scribe Technology into Public Health Workflows: Simulation and Field Evaluation in Disease Case Management.
+  - Recorded reason: Pilot field evaluation in two public health units reporting documentation time change with scribe use versus usual practice
+- **R0144** (exclude) | Impact of an Ambient AI Scribe on Medical Student Objective Structured Clinical Examination Notes: Nonrandomized Clinical Trial.
+  - Recorded reason: Nonrandomized study in preclerkship students on OSCE exam notes measuring educational impact not clinician documentation in real care
+- **R0157** (exclude) | The MediVoice implementation journey: ambient artificial intelligence for clinical documentation.
+  - Recorded reason: Implementation case report describing pilot and PDSA cycles with usability and workflow impressions but no measured protocol outcome reported in abstract
+- **R0173** (include) | Evaluating privacy leakages in LLM-driven ambient clinical documentation.
+  - Recorded reason: Benchmark error audit of LLM generated ambient notes from transcripts measuring inappropriate inclusion of third party personal information as wrong inclusions
+- **R0256** (include) | Ambient Scribe Technology in Simulated Patient Encounters Across Specialties.
+  - Recorded reason: Standardised patient encounter evaluation of ambient scribe combining a validated documentation quality measure with qualitative insights; unclear whether quality results are quantitative and what denominator was used
+- **R0279** (include) | Ambient Artificial Intelligence in Hand Surgery: Insights, Pearls, and Pitfalls From Real-World Use.
+  - Recorded reason: Real world note audit comparing 7 AI generated and 7 surgeon written carpal tunnel notes on word count, readability and history inclusion; unclear whether the comparison was systematic or prespecified as the paper is mainly insights and observations
+- **R0302** (exclude) | A Novel Playbook for Pragmatic Trial Operations to Monitor and Evaluate Ambient Artificial Intelligence in Clinical Practice.
+  - Recorded reason: Framework and protocol playbook for a pragmatic trial reporting implementation monitoring and utilization, with no scribe outcome effect results reported
+- **R0363** (include) | Accuracy and Safety of AI-Enabled Scribe Technology: Instrument Validation Study.
+  - Recorded reason: Instrument validation study reporting errors in AI-enabled ambient scribe output, a protocol note error outcome, though the abstract gives no methods or denominator
+- **R0383** (exclude) | "Mm-hm," "Uh-uh": are non-lexical conversational sounds deal breakers for the ambient clinical documentation technology?
+  - Recorded reason: Evaluated ASR engines only on word error rate and recognition of non lexical sounds, no ambient scribe note draft or protocol outcome audited; unclear whether word error rate alone counts as a note error outcome
+- **R0399** (exclude) | Performance of an Ambient Generative AI Documentation Tool in a Linguistically Diverse Clinical Setting
+  - Recorded reason: Retrospective analysis measured only the share of final note words generated by AI and not edited, no protocol outcome such as time, quality or errors was reported; unclear whether unedited word share counts as a quality outcome
+- **R0458** (include) | Early insights into the impact of an ambient AI scribe solution on clinical documentation to reduce clinician burnout in oncology.
+  - Recorded reason: Prospective pilot in oncology with 620 scribe visits measured utilisation and survey reported time spent outside clinic hours as a burden outcome; unclear from abstract whether burden was measured beyond a single survey item
+- **R0513** (include) | 533 Clinicians vs AI scribes: Comparing the Readability and Understandability of Clinic Letters
+  - Recorded reason: simulated urology consultations produced clinician, Copilot and Heidi AI letters that were blind scored for readability and PEMAT understandability as letter quality; abstract is unclear whether the Heidi input was ambient encounter audio
+- **R0516** (include) | Accuracy and Safety of AI-Enabled Scribe Technology: Instrument Validation Study (Preprint)
+  - Recorded reason: title and abstract state a study of accuracy and safety of AI enabled ambient scribes finding errors that must be evaluated, but the abstract gives no sample, denominator or specific outcome measure
+- **R0517** (exclude) | Offline AI-powered scribe: Reducing documentation burden in underserved healthcare settings
+  - Recorded reason: prototype was tested in 20 simulated encounters for documentation time and transcription accuracy, but the workflow described is clinician dictation into speech to text rather than ambient drafting from real encounters, and real world use is unclear
+- **R0525** (exclude) | Open source versus commercial AI scribes in gynecology oncology: a tiered benchmark study
+  - Recorded reason: no abstract, decision on title only; title shows a tiered benchmark comparing open source and commercial AI scribes in gynaecology oncology but does not clearly state a measured protocol outcome such as note quality or errors

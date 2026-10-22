@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Malikian"
+    given-names: "Raphael"
+    email: "rtmalikian@gmail.com"
+title: "Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team"
+version: "0.2-stage2"
+date-released: 2026-10-22
+license: CC-BY-4.0
+url: "https://github.com/rtmalikian/ambient-ai-scribes-meta-analysis-clinical-documentation-burnout-note-errors"
+keywords:
+  - ambient AI scribes
+  - clinical documentation
+  - clinician burnout
+  - systematic review
+  - meta-analysis
+  - note errors
+  - AI hallucinations
+abstract: "Cochrane-level systematic review and meta-analysis of ambient AI scribes for clinical documentation, asking whether they cut documentation time and after-hours work, ease clinician burnout, and what note errors and hallucinations they add. Status at this version: Stage 2 search and screening complete, no pooled result yet. A DOI will be added when the preprint record exists."
