@@ -10,6 +10,10 @@
 
 # Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23565499.svg)](https://doi.org/10.5281/zenodo.23565499)
+
+**Preprint:** published on Zenodo, record https://zenodo.org/records/23565499, DOI [10.5281/zenodo.23565499](https://doi.org/10.5281/zenodo.23565499).
+
 **Author:** Raphael Malikian, independent researcher, healthcare founder and operator, clinical AI builder.
 
 **Method in one line:** Cochrane Handbook version 6.5 (2024) methods, PRISMA 2020 reporting, one human author accountable for every number, and a team of large language model roles doing the team tasks a Cochrane group would do.
@@ -120,7 +124,7 @@ Cite this repository through [CITATION.cff](CITATION.cff), which GitHub reads fo
 
 Malikian R. Ambient AI Scribes Meta-Analysis: Documentation Time, After-Hours Work, Clinician Burnout, Note Quality, Note Errors and Hallucinations. A Cochrane-Level Systematic Review Built by an LLM Team. Version 1.0, 2026.
 
-DOI: pending. A Zenodo DOI will be added here and to CITATION.cff when the preprint record exists. Registration: no PROSPERO number was issued before the analysis; the protocol record route is OSF.
+DOI: [10.5281/zenodo.23565499](https://doi.org/10.5281/zenodo.23565499) (Zenodo preprint, version 1.0; all-versions concept DOI 10.5281/zenodo.23565498). Registration: no PROSPERO number was issued before the analysis; the protocol record route is OSF.
 
 ## Licence
 
